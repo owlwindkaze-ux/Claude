@@ -1,3 +1,11 @@
 .DS_Store
 *.tmp
 ~$*
+
+# 介護システムからの出力と、その抽出結果。
+# 利用者の健康情報が含まれるため、Gitに登録しない。
+work/*
+*.xlsx
+*.xls
+*.csv
+!work/README.md
